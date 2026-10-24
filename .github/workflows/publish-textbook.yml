@@ -1,0 +1,49 @@
+name: Publish textbook files
+on:
+  push:
+    paths:
+      - '.github/workflows/publish-textbook.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify archive and publish the 58 chapters
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, subprocess, zipfile
+          archive = pathlib.Path('embodied-ai-textbook-v1.0.zip')
+          expected = '9cb6d5bf69bf33a1fe2fb2a7318ca225139da1116e7d34da98af4e5baae15463'
+          assert hashlib.sha256(archive.read_bytes()).hexdigest() == expected, 'Archive hash mismatch'
+          prefix = 'embodied-ai-textbook/'
+          with zipfile.ZipFile(archive) as z:
+              manifest_bytes = z.read(prefix + 'release-manifest.json')
+              manifest = json.loads(manifest_bytes)
+              paths = list(manifest['files'])
+              assert len(paths) == 344
+              assert set(z.namelist()) == {prefix + p for p in paths + ['release-manifest.json']}
+              for name, info in manifest['files'].items():
+                  path = pathlib.PurePosixPath(name)
+                  assert not path.is_absolute() and '..' not in path.parts and '.git' not in path.parts
+                  data = z.read(prefix + name)
+                  assert len(data) == info['bytes']
+                  assert hashlib.sha256(data).hexdigest() == info['sha256'], name
+                  target = pathlib.Path(name)
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(data)
+              pathlib.Path('release-manifest.json').write_bytes(manifest_bytes)
+          workflow = '.github/workflows/publish-textbook.yml'
+          pathlib.Path(workflow).unlink()
+          subprocess.run(['python3', 'scripts/check_book.py'], check=True)
+          subprocess.run(['git', 'config', 'user.name', 'github-actions[bot]'], check=True)
+          subprocess.run(['git', 'config', 'user.email', '41898282+github-actions[bot]@users.noreply.github.com'], check=True)
+          subprocess.run(['git', 'add', '--'] + paths + ['release-manifest.json', workflow], check=True)
+          subprocess.run(['git', 'commit', '-m', 'Publish complete 58-chapter textbook and remove one-time importer'], check=True)
+          subprocess.run(['git', 'push', 'origin', 'HEAD:main'], check=True)
+          print('Verified and published all 345 textbook files; one-time importer removed.')
+          PY
