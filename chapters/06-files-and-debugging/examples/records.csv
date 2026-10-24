@@ -1,0 +1,7 @@
+color,start_cm,end_cm,duration_s
+red,2,8,3
+green,8,2,3
+red,,4,1
+red,0,2,0
+red,bad,2,1
+red,nan,2,1

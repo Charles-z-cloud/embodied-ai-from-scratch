@@ -1,0 +1,1382 @@
+{
+  "edition": "v1.0",
+  "content": "Chinese beginner textbook; source, figures and validation records; no generated checkpoints or virtual environment",
+  "files": {
+    ".gitignore": {
+      "bytes": 58,
+      "sha256": "f04d6253f975e8c7e8aa71d41a78b2ea0ff6fc80aebd0e6ad5cd33815ad719f3"
+    },
+    "README.md": {
+      "bytes": 10465,
+      "sha256": "3ec7e029523d8c994df6fa71188e8b1852d8b762854e0e6b022afe056992a060"
+    },
+    "book-validation.md": {
+      "bytes": 3242,
+      "sha256": "b57b7755fd45fdc6aeb1af76a2a33395fa84b930e81383f1d37e29ae982ac27e"
+    },
+    "chapters/01-orientation/README.md": {
+      "bytes": 27233,
+      "sha256": "43f34eb039dff88767382d0dc8b90c301c02bf8d6a6f40d65b8d236584b89c13"
+    },
+    "chapters/01-orientation/exercises.md": {
+      "bytes": 5588,
+      "sha256": "aa30f43b0db5520a17ed84ad81bcc2f9d42e36b59579e47ac473e4776acaab43"
+    },
+    "chapters/01-orientation/solutions.md": {
+      "bytes": 6267,
+      "sha256": "3dffcd2e1f506d629a9555be846083f17a0a12d050a094a8c398907f39d34fc7"
+    },
+    "chapters/01-orientation/validation.md": {
+      "bytes": 382,
+      "sha256": "0fc9349290ece90a551bcaf44dca192189f5f882c57b9339ad37344b2a7942bf"
+    },
+    "chapters/02-computer-and-environment/README.md": {
+      "bytes": 13790,
+      "sha256": "e1d736c0c61522d7918a12aed7ffd0824156df0032c2a6323dceb11baca3d89c"
+    },
+    "chapters/02-computer-and-environment/examples/hello.py": {
+      "bytes": 80,
+      "sha256": "23670eae70b308ca967d6f4394ce0f9344cf7ab7e4f37b5efff6fd643dbfe080"
+    },
+    "chapters/02-computer-and-environment/exercises.md": {
+      "bytes": 1502,
+      "sha256": "4748a7103a4c79897a94b6e2edcebd1bf2a22fadff2c9de703c7121944d744ea"
+    },
+    "chapters/02-computer-and-environment/solutions.md": {
+      "bytes": 1360,
+      "sha256": "08411647c03d6c2fe4d26112d0d06bb44a66ada09157f810f7061bea32ffe375"
+    },
+    "chapters/02-computer-and-environment/validation.md": {
+      "bytes": 770,
+      "sha256": "9a32733d06597575e7d97fc080c44a64f25d994c875bf5a7aa6bc01adfecffc8"
+    },
+    "chapters/03-python-values/README.md": {
+      "bytes": 9824,
+      "sha256": "60f7d7efa5289f43b0345c622253963b4f69213abcd344c609d0f50013b39d09"
+    },
+    "chapters/03-python-values/examples/interactive.py": {
+      "bytes": 158,
+      "sha256": "38f44d140afa62ec45a19ebc15dc5992589bc98cc4e3f8524bacd66be1b6ca00"
+    },
+    "chapters/03-python-values/examples/motion.py": {
+      "bytes": 436,
+      "sha256": "a482062b7d028b2476989b82b30fe01956ca2ff41a2a1ad71300130b901f6d97"
+    },
+    "chapters/03-python-values/exercises.md": {
+      "bytes": 1132,
+      "sha256": "9d637234d5a0094f6cb47324c6b8e4b69da624f28dee22257a81131618362312"
+    },
+    "chapters/03-python-values/solutions.md": {
+      "bytes": 1237,
+      "sha256": "518ac540d5112079898b55c13415dd269dbd38d621c2bb349fb019c0adddb8a1"
+    },
+    "chapters/03-python-values/validation.md": {
+      "bytes": 573,
+      "sha256": "470776feaffd1999317ae298fc4bb4d8c6dbb9b0c885b74e61ee3bc7190db482"
+    },
+    "chapters/04-python-collections/README.md": {
+      "bytes": 9648,
+      "sha256": "fd42c15e5787d86e3229ab4b0e6ceaf9c269178e79626ccd8a6e79195e1aa003"
+    },
+    "chapters/04-python-collections/examples/records.py": {
+      "bytes": 455,
+      "sha256": "f1fcbaf7194ec13fb9289d5e0781e21204a0d32393bd9b89a7c71edce5dec25d"
+    },
+    "chapters/04-python-collections/examples/valid_time.py": {
+      "bytes": 193,
+      "sha256": "856bc0e8a32107815f014b3ab8b00867fbda375c3b88ca0b770b83666c396141"
+    },
+    "chapters/04-python-collections/exercises.md": {
+      "bytes": 1187,
+      "sha256": "1629bc4469e860e6d72e53192f996a516acc2f97be0e3c5bab2c066fe725557a"
+    },
+    "chapters/04-python-collections/solutions.md": {
+      "bytes": 1353,
+      "sha256": "4bca7c9e3261d80e0f00cadbdb5ea4ea1f8b42003b5f38aaf0f5d6c78a1b24e3"
+    },
+    "chapters/04-python-collections/validation.md": {
+      "bytes": 483,
+      "sha256": "15fec43ef7320da3db2eb07a681573d48d193dc0bbbcd9d42ee7c3211f6f035e"
+    },
+    "chapters/05-python-functions/README.md": {
+      "bytes": 9450,
+      "sha256": "5fded953c4417c1d260683f3381b572765144a13358218a7aa54ad78464e471d"
+    },
+    "chapters/05-python-functions/examples/main.py": {
+      "bytes": 636,
+      "sha256": "862466637108d6d8d954a239663818dbd69f0b0db251e90326621ca85b88a830"
+    },
+    "chapters/05-python-functions/examples/motion.py": {
+      "bytes": 398,
+      "sha256": "3712a0651db856dc131d608964b4d9f65c32e0320b219886a9572e05601f99ff"
+    },
+    "chapters/05-python-functions/exercises.md": {
+      "bytes": 1162,
+      "sha256": "f7a505b7de56699779d65cb61204a72ed811a1381c9a28868dd4fb22f0db64b6"
+    },
+    "chapters/05-python-functions/solutions.md": {
+      "bytes": 1074,
+      "sha256": "3821c6c14d500dc1b8ffcfcaf59f0018469c397e74dbabe1f6355af98b7601fb"
+    },
+    "chapters/05-python-functions/validation.md": {
+      "bytes": 438,
+      "sha256": "8d2f6b918a5e5e7b737e9ce8ac42cef8c9b03bfbcb8e39d7f018717e289280e4"
+    },
+    "chapters/06-files-and-debugging/README.md": {
+      "bytes": 10286,
+      "sha256": "59f86e2c6991550940dc470ec9d8e150bb153d18d8f995ac6660bc174c3f351e"
+    },
+    "chapters/06-files-and-debugging/examples/clean_records.py": {
+      "bytes": 2090,
+      "sha256": "72f2a273a5a3f4911f71a79a3cddfca3d9ecd91bee5efbdaa09bc98d50fbe7e8"
+    },
+    "chapters/06-files-and-debugging/examples/records.csv": {
+      "bytes": 98,
+      "sha256": "1fee39233c1ecde3d8c0a65cdbf38f16f264e20fa56e9e496fd9874ad315a666"
+    },
+    "chapters/06-files-and-debugging/exercises.md": {
+      "bytes": 1090,
+      "sha256": "324db7299a0a6bf3a2d7eaa916f507c160fb00dc1a50a79434fe5fdd6afc9a2c"
+    },
+    "chapters/06-files-and-debugging/solutions.md": {
+      "bytes": 1159,
+      "sha256": "f06a996802fc972075348cb20b2305f04b4d7b512dbea732988bae7d3c82668a"
+    },
+    "chapters/06-files-and-debugging/validation.md": {
+      "bytes": 559,
+      "sha256": "31fa6a954089163c30001bc40d512a7df692f30363114bc6632a83bd4e3a2a6e"
+    },
+    "chapters/07-classes-git-and-reproducibility/README.md": {
+      "bytes": 10368,
+      "sha256": "d4e09aec5aa045c45ffd2c88246968c16ccc59f34b0c15a01cf446ea1e418af3"
+    },
+    "chapters/07-classes-git-and-reproducibility/examples/config.json": {
+      "bytes": 87,
+      "sha256": "2590af403824159a318d151cbc0d731cbb871e3578887a762f16d7a7e07ece12"
+    },
+    "chapters/07-classes-git-and-reproducibility/examples/record_book.py": {
+      "bytes": 1353,
+      "sha256": "b715725dbb28bdaeb3c13f8a64c96721c4bdea69522ae552194f40bfe87370f8"
+    },
+    "chapters/07-classes-git-and-reproducibility/exercises.md": {
+      "bytes": 1029,
+      "sha256": "7f0ab3046dfb249deb272d438f622afe66030f1657491bb94db0be480af3b1ab"
+    },
+    "chapters/07-classes-git-and-reproducibility/solutions.md": {
+      "bytes": 1139,
+      "sha256": "3e7e295e08524ae6d1d7d26623843300b5175470c61710f70466d2884f5b6eff"
+    },
+    "chapters/07-classes-git-and-reproducibility/validation.md": {
+      "bytes": 633,
+      "sha256": "d1ed9bfab912e455ee05e7ab6c216bb81272850a8c943461ebaea9468dc48529"
+    },
+    "chapters/08-math-language-and-functions/README.md": {
+      "bytes": 10253,
+      "sha256": "038061ad5d96159d62cf792c3bbf413e7e3dd911d64e66f55bdd2745df715c5f"
+    },
+    "chapters/08-math-language-and-functions/examples/formulas.py": {
+      "bytes": 485,
+      "sha256": "b60ba59edfe85aef301c098f41496fd2ea90fae310960c9523f26bbfed090d32"
+    },
+    "chapters/08-math-language-and-functions/examples/plot_functions.py": {
+      "bytes": 1025,
+      "sha256": "0f85aca3cb0e71cb5b70b8c502d4353d81028a0e003820f43b9b15acaad3b556"
+    },
+    "chapters/08-math-language-and-functions/exercises.md": {
+      "bytes": 914,
+      "sha256": "58541c5c57b477fd653b089b01bfb9e9b25f02a20c071800cc8b5525b1316796"
+    },
+    "chapters/08-math-language-and-functions/figures/functions.png": {
+      "bytes": 87131,
+      "sha256": "fb68bbec3aefc8aa68a4eef6d9460c0f5069496540f05d02c95f4810e5ea84cd"
+    },
+    "chapters/08-math-language-and-functions/solutions.md": {
+      "bytes": 938,
+      "sha256": "918495f80542fdcc1bb0db2cf8db4151a0a2dc9334b96eeb9bf67a44149e1737"
+    },
+    "chapters/08-math-language-and-functions/validation.md": {
+      "bytes": 580,
+      "sha256": "7ec45a8d8fd17978d9b6dd3717a7e6b124dcb120a7ef6b96f5d9b08851ebbbb0"
+    },
+    "chapters/09-numpy-vectors-and-arrays/README.md": {
+      "bytes": 8602,
+      "sha256": "eb2898249b5077a6e234e1daba91f8337fab453b7d50282f238f8a61c8b29f1e"
+    },
+    "chapters/09-numpy-vectors-and-arrays/examples/arrays.py": {
+      "bytes": 784,
+      "sha256": "200fb58a13a5c64f402143bed709604e773b5b5fadc1d8ae84cf8f6820c60cde"
+    },
+    "chapters/09-numpy-vectors-and-arrays/exercises.md": {
+      "bytes": 906,
+      "sha256": "6747c1437f6c3765bad9b97f4c111479749ac2ecdbb1d674805f9999a74cae4e"
+    },
+    "chapters/09-numpy-vectors-and-arrays/solutions.md": {
+      "bytes": 824,
+      "sha256": "f4cd482f3b44612af64cd94c9c149fd15e9a715a64a641f4409ba956a1a997cd"
+    },
+    "chapters/09-numpy-vectors-and-arrays/validation.md": {
+      "bytes": 443,
+      "sha256": "514ae260f2422a5643eb61b79f4064f229d1a7b6ee44bb44696c9431eb1c3940"
+    },
+    "chapters/10-linear-algebra-and-geometry/README.md": {
+      "bytes": 10393,
+      "sha256": "7224a9480de154c693454c0549e8fa07a528bdb973667a2602cd89a1f5a7013e"
+    },
+    "chapters/10-linear-algebra-and-geometry/examples/geometry.py": {
+      "bytes": 1489,
+      "sha256": "4f774566ab1c60d0db7fc2bb5f50fa2eb95a22ea3f516e51e2b63bbccb2ae80d"
+    },
+    "chapters/10-linear-algebra-and-geometry/exercises.md": {
+      "bytes": 1065,
+      "sha256": "cb500296e17d7a482fbf6b5077b4ec5ff2d55318d4bdd39013c6b32a5a80963c"
+    },
+    "chapters/10-linear-algebra-and-geometry/solutions.md": {
+      "bytes": 1037,
+      "sha256": "9260d8cad183c390beab99a065672ae82469e634aeb7ededdb8000fd1760409d"
+    },
+    "chapters/10-linear-algebra-and-geometry/validation.md": {
+      "bytes": 707,
+      "sha256": "8b9286daf11ea737e43372fdd12f2e6aae9acc638484c9d384446a665462ef4e"
+    },
+    "chapters/11-probability/README.md": {
+      "bytes": 8915,
+      "sha256": "b273b62b06d6f77c9aa96dac34d7ae08634fddac517c459f7eb9a53fe1a5a592"
+    },
+    "chapters/11-probability/examples/sensor_probability.py": {
+      "bytes": 1377,
+      "sha256": "37b34056522848c5a01fcba06fbefdf316b89b3f29194b6f0ed4e2135362205f"
+    },
+    "chapters/11-probability/exercises.md": {
+      "bytes": 907,
+      "sha256": "7ff2864f33d4bff7e359e3b2b66bfe7bd20f71f023529cf4e5fa96affdf97aa1"
+    },
+    "chapters/11-probability/solutions.md": {
+      "bytes": 1180,
+      "sha256": "f10575d1fd772af0b76e383643d213ebd9dc54f350ec818a130b1e6d77bba3e3"
+    },
+    "chapters/11-probability/validation.md": {
+      "bytes": 671,
+      "sha256": "510360b32a5a8af26dadeaca7402e012ab5586e1ce989e75088b48655e81ac29"
+    },
+    "chapters/12-distributions-and-statistics/README.md": {
+      "bytes": 10737,
+      "sha256": "9e9ce602ae0175b4eec62e4cf5b2e3aadb60b91797e8bc75f9a36b47717b59cf"
+    },
+    "chapters/12-distributions-and-statistics/examples/plot_distributions.py": {
+      "bytes": 1094,
+      "sha256": "bbc2fb7e40a000f839af1e54531f10b082154d458cf37317c4153d12b1a1be05"
+    },
+    "chapters/12-distributions-and-statistics/examples/statistics_demo.py": {
+      "bytes": 1263,
+      "sha256": "43fbdac7aa96bafb09292a32a7b80f6814d4799260beb19c81825be8bfcdc6b2"
+    },
+    "chapters/12-distributions-and-statistics/exercises.md": {
+      "bytes": 933,
+      "sha256": "15f7991d1475dee2118d822bb679a6f4587870a97b00070abdab0ce0b9631536"
+    },
+    "chapters/12-distributions-and-statistics/figures/distributions.png": {
+      "bytes": 72544,
+      "sha256": "8d095645f635a611a47150c48d4226c4d20d37acaa1f603b1782042240e1f444"
+    },
+    "chapters/12-distributions-and-statistics/solutions.md": {
+      "bytes": 994,
+      "sha256": "222188e1cd62a72650d9f725ede176f837f3a5649e5710a951f637b5a03a09a9"
+    },
+    "chapters/12-distributions-and-statistics/validation.md": {
+      "bytes": 785,
+      "sha256": "e2158829b049d0736c869aeaeb85017a906323c008e6b4ed4a40c1335b0c77c4"
+    },
+    "chapters/13-calculus-and-gradients/README.md": {
+      "bytes": 9137,
+      "sha256": "ae72614cc49a0d5bd278db653595e0e578c65a85479aabea3730ea953f7f2377"
+    },
+    "chapters/13-calculus-and-gradients/examples/gradients.py": {
+      "bytes": 1189,
+      "sha256": "63f700b53a0e3fabbf3bc12bd7bceb7edd069f63c234a65462bb35fd8d44f913"
+    },
+    "chapters/13-calculus-and-gradients/examples/plot_gradient.py": {
+      "bytes": 979,
+      "sha256": "33cc74777fbc4c781fb74fafbc99a5cfe93e70372f9a008de6c759f970fdae67"
+    },
+    "chapters/13-calculus-and-gradients/exercises.md": {
+      "bytes": 701,
+      "sha256": "34dd93bc27d02530fd42ece5b0992b2097afa591c54e745e78280a586c61cf08"
+    },
+    "chapters/13-calculus-and-gradients/figures/gradient-direction.png": {
+      "bytes": 51273,
+      "sha256": "74f3307bd491f28dce462d38fea57dabedcca39ddddf3b1861e4402c52644322"
+    },
+    "chapters/13-calculus-and-gradients/solutions.md": {
+      "bytes": 930,
+      "sha256": "49a3f92865de35270829ec04ffb82ba2e4ac470b53d8615568052320a8835711"
+    },
+    "chapters/13-calculus-and-gradients/validation.md": {
+      "bytes": 716,
+      "sha256": "57da7864da7f6d5aba38588e93144fdca20bca91e7d26050322dded080e271f7"
+    },
+    "chapters/14-optimization/README.md": {
+      "bytes": 9219,
+      "sha256": "868638c7882973706ed6ffaadd4b8be6063aa1088515cf4ff1fb2a62f512c334"
+    },
+    "chapters/14-optimization/examples/optimize.py": {
+      "bytes": 1733,
+      "sha256": "e2280995ca1782c6cea967ae57c417306ceee256270069018d67c427119e848a"
+    },
+    "chapters/14-optimization/exercises.md": {
+      "bytes": 859,
+      "sha256": "96c4be4f4de645e780527eb6606695244049798cf3d79e1e2b8fca020ad019a1"
+    },
+    "chapters/14-optimization/solutions.md": {
+      "bytes": 1009,
+      "sha256": "0a34df19f94cb18f7e33a8d2cebe3a2991f3bf9158f92556cdf15acbd4ca8877"
+    },
+    "chapters/14-optimization/validation.md": {
+      "bytes": 641,
+      "sha256": "60fabb4b0a72c6be9c3ba7f9f2590ef831011dc3fc4c803bf8b06c7102655bbe"
+    },
+    "chapters/15-regression-workflow/README.md": {
+      "bytes": 10022,
+      "sha256": "e1842c607ddace7403ef9b59996902aa9e510c2a38eecd2f3a7bfb87bbd934f0"
+    },
+    "chapters/15-regression-workflow/examples/generate_data.py": {
+      "bytes": 468,
+      "sha256": "0f72403f8d0c78a08f0909999724b16c8a865246d0a3c7afe5904fb96564950b"
+    },
+    "chapters/15-regression-workflow/examples/plot_results.py": {
+      "bytes": 1131,
+      "sha256": "4f1d7e6e150c645cc0f5e030a3b4d8287700bc7306556058cb4f4a079dbd5391"
+    },
+    "chapters/15-regression-workflow/examples/train.py": {
+      "bytes": 2761,
+      "sha256": "314ac6c0adee2d7f01ca784c45f3c3a7cd3e5cb819cceed88492fcfb8402d8e8"
+    },
+    "chapters/15-regression-workflow/exercises.md": {
+      "bytes": 936,
+      "sha256": "109ed984b944160619ddb842ad8fee7fb37db7e300e4dcde6afb2810e31b9e7d"
+    },
+    "chapters/15-regression-workflow/figures/regression.png": {
+      "bytes": 93016,
+      "sha256": "ca791be564361c538b2ebfb6c5e5a1d07a3df2181acb006d566bedc17c55a897"
+    },
+    "chapters/15-regression-workflow/solutions.md": {
+      "bytes": 1300,
+      "sha256": "8af0793df709c35f7c2397b4663ca8d2d49b69fa4a9dc576c24881c2797b39c3"
+    },
+    "chapters/15-regression-workflow/validation.md": {
+      "bytes": 876,
+      "sha256": "76c25dd444546ef45b6371315e371a66e644d9000819ece753ae4759409a29ec"
+    },
+    "chapters/16-classification-and-information/README.md": {
+      "bytes": 9146,
+      "sha256": "6a6f3695b56062300083d58c230358618d19b690b9097e2680154315f9458a97"
+    },
+    "chapters/16-classification-and-information/examples/color_classifier.py": {
+      "bytes": 2323,
+      "sha256": "60a84ed6e52b9b7bf0791536816d05856c20691920f882995843902e4ebfa9b7"
+    },
+    "chapters/16-classification-and-information/exercises.md": {
+      "bytes": 919,
+      "sha256": "42c5bf6d0ace2f250c7709b2c36369ca00545c0d7e4304752cee655ce0312b16"
+    },
+    "chapters/16-classification-and-information/solutions.md": {
+      "bytes": 1039,
+      "sha256": "bdcf8ab14e9bafbee77e77fb3030257e32d9e40d9de39827f3ac98b76120b29e"
+    },
+    "chapters/16-classification-and-information/validation.md": {
+      "bytes": 814,
+      "sha256": "190a5b00996fafdca5decbb04b33a8ffdbfc79487348211a0c2a5bbfed803e0e"
+    },
+    "chapters/17-evaluation-and-generalization/README.md": {
+      "bytes": 11347,
+      "sha256": "83ba130d0a4330d57cc98b4d316355e2bb16c9a1156ed2668f0b169342487f0f"
+    },
+    "chapters/17-evaluation-and-generalization/examples/evaluation.py": {
+      "bytes": 2107,
+      "sha256": "bf4103bce2b64f46071f251995cbdf922500df63a62ade222c2ae50d1fd473c1"
+    },
+    "chapters/17-evaluation-and-generalization/exercises.md": {
+      "bytes": 857,
+      "sha256": "2fbf124273815585f983f28db6a6873cca0e877e2b1a65a41667cbbe3e2645cb"
+    },
+    "chapters/17-evaluation-and-generalization/solutions.md": {
+      "bytes": 1251,
+      "sha256": "000a67b1f1afc6e6a5ab9f61a67d491c0e72b720e2a26acefc9bd6ac1818b526"
+    },
+    "chapters/17-evaluation-and-generalization/validation.md": {
+      "bytes": 820,
+      "sha256": "370f3d89b2e10e11a038fce454d8e90b5ff0d074a417a18983cfe66396169d26"
+    },
+    "chapters/18-neural-network-forward/README.md": {
+      "bytes": 8864,
+      "sha256": "6cd368fabb954a17d1aba809ed508f04262b14d8336dc10722dbd7e962b400b6"
+    },
+    "chapters/18-neural-network-forward/examples/forward.py": {
+      "bytes": 1275,
+      "sha256": "772178fd05f2d2bdaddd4f32da8752af56f03e626f8174714a2f3e6139a398c0"
+    },
+    "chapters/18-neural-network-forward/exercises.md": {
+      "bytes": 792,
+      "sha256": "034a5de37f3e85fdfb345ddad665fdb298a8d8d11f769d29b3516ec4e0cce9f4"
+    },
+    "chapters/18-neural-network-forward/solutions.md": {
+      "bytes": 1071,
+      "sha256": "7aac5fb1b4339164bd36d130fbf1fbc3b5212b13c53c565f2bd4a52fb8077485"
+    },
+    "chapters/18-neural-network-forward/validation.md": {
+      "bytes": 641,
+      "sha256": "9c82b4d169c95b275ba3942247c24c9a20ad5f2827829d2a039200aeb3f8f5ff"
+    },
+    "chapters/19-backpropagation/README.md": {
+      "bytes": 9721,
+      "sha256": "5da1e3de2541410b75941504916537fee793992abf608e56f850945d1f51ede9"
+    },
+    "chapters/19-backpropagation/examples/check_matrix_backward.py": {
+      "bytes": 1538,
+      "sha256": "25ea318db550e7197aa9c000bc3fdde4ba6705c40ab0424985b01cc76a2dec43"
+    },
+    "chapters/19-backpropagation/examples/scalar_autodiff.py": {
+      "bytes": 1728,
+      "sha256": "79a8dbb3c0012f209ba41ecbebcc037fefac48194d830a339583dca568533b4f"
+    },
+    "chapters/19-backpropagation/exercises.md": {
+      "bytes": 822,
+      "sha256": "fe7e94901e14348b267d279cda4d77361ea57461ad0a2b9b8572966092ffc05a"
+    },
+    "chapters/19-backpropagation/solutions.md": {
+      "bytes": 1058,
+      "sha256": "cf8b12ac006baac650e4579150c09423d816e776ffa2abf9a5621c2aded58c59"
+    },
+    "chapters/19-backpropagation/validation.md": {
+      "bytes": 670,
+      "sha256": "c8eb98f074cd13b36f5830c42f7ccda282aa3fea6e7a6961103e103e8f8e8119"
+    },
+    "chapters/20-pytorch-training/README.md": {
+      "bytes": 10448,
+      "sha256": "c8b5826f9f15d78d5980fead6c47b9e085c29d941435ae50273dba7a901c8aca"
+    },
+    "chapters/20-pytorch-training/examples/tensor_and_forward.py": {
+      "bytes": 1119,
+      "sha256": "381566eecdcdee1c7142686cbf97fd50a7558f21c8573ce2b600c4f7bda56153"
+    },
+    "chapters/20-pytorch-training/examples/train_xor.py": {
+      "bytes": 3088,
+      "sha256": "657069761dc2f437483b78c3556395f4371594c83877a957867138466bdd72dd"
+    },
+    "chapters/20-pytorch-training/exercises.md": {
+      "bytes": 929,
+      "sha256": "9806054f016778457a6037f0e062c605a8c270cb94a5729159dd452ece27aa8b"
+    },
+    "chapters/20-pytorch-training/solutions.md": {
+      "bytes": 1071,
+      "sha256": "ea9bef43435d6c925fc5d9d8e94de3631585b53c574b6a3b2a44b510e81f2f65"
+    },
+    "chapters/20-pytorch-training/validation.md": {
+      "bytes": 697,
+      "sha256": "7f3bb3de20095c36af1c9ae50e4f8ac24e9747a336504527e20a49f548468b08"
+    },
+    "chapters/21-training-engineering/README.md": {
+      "bytes": 10422,
+      "sha256": "33f37ec2525ebb7390e2e54cfd46368eadbf1f531bbad565e531e269708a150c"
+    },
+    "chapters/21-training-engineering/examples/accumulation.py": {
+      "bytes": 667,
+      "sha256": "a4e3571cb3efddb9eb045a52867493e88bebe5faa60353be2812c74f8a0221b3"
+    },
+    "chapters/21-training-engineering/examples/debug_training.py": {
+      "bytes": 1649,
+      "sha256": "5a83aa040d5cf6603df75b20e2e797d32e531fce0837671624f1f2b1584776af"
+    },
+    "chapters/21-training-engineering/examples/resume_training.py": {
+      "bytes": 2189,
+      "sha256": "b7105e8294f9a461593b99c73fcd8841bb55836eef30acb2465444100f3ad03b"
+    },
+    "chapters/21-training-engineering/exercises.md": {
+      "bytes": 872,
+      "sha256": "6a6325aab43ce9abc49c56c51534acc9dfcd93e4b6b246ebaa4b9e116f6e28f4"
+    },
+    "chapters/21-training-engineering/solutions.md": {
+      "bytes": 1228,
+      "sha256": "a244c7b7eaa6ba3d153370b6944f0ee757ccdf77476a5eaf307671d036c8adee"
+    },
+    "chapters/21-training-engineering/validation.md": {
+      "bytes": 803,
+      "sha256": "409ccfd062d7727b9da2b7de7e0ae8fab4ab74216a299ad74461029110d99295"
+    },
+    "chapters/22-images-and-convolution/README.md": {
+      "bytes": 9563,
+      "sha256": "3de3612eae90fd9c8aa7096d3e78b20bf366691b2bad067aedd53e1a8a983594"
+    },
+    "chapters/22-images-and-convolution/examples/image_convolution.py": {
+      "bytes": 2699,
+      "sha256": "858f1f201dd619c7d77a789165b3a64da6ced81ecd919f72d78c465dd6e9334a"
+    },
+    "chapters/22-images-and-convolution/exercises.md": {
+      "bytes": 783,
+      "sha256": "9517bbcc545983a0f5071f4872c185e2810e3f28d5aa627011c376b1d3cbee58"
+    },
+    "chapters/22-images-and-convolution/figures/blocks.png": {
+      "bytes": 229,
+      "sha256": "bc748f98c002cfd8e5a54badb379d432be3d24011473f247aa6a319da861374d"
+    },
+    "chapters/22-images-and-convolution/figures/edges.png": {
+      "bytes": 49803,
+      "sha256": "116e60210cc6da4a6ff16126e46fb11745b3055e8e95144b0586833f08e9816e"
+    },
+    "chapters/22-images-and-convolution/solutions.md": {
+      "bytes": 887,
+      "sha256": "a0f77190e63f455b274937d303c9839cb76cbaf95f7f01cb188f5ed6b8c44b50"
+    },
+    "chapters/22-images-and-convolution/validation.md": {
+      "bytes": 751,
+      "sha256": "4a0ca5ad09a5ef39c96a40b36814341b3ef19276418c9e1b0f45faf62610fcec"
+    },
+    "chapters/23-cnn-and-visual-representations/README.md": {
+      "bytes": 10341,
+      "sha256": "808d3c4a4a9da86c749bcad0ccce7a3f0059418cb8960f3f68e4ec16dd3ffa49"
+    },
+    "chapters/23-cnn-and-visual-representations/examples/train_vision.py": {
+      "bytes": 6054,
+      "sha256": "1c5a8ba6e269f8d3464aa2ac0248e029f162fcd870eb72447a49966359eaa6b0"
+    },
+    "chapters/23-cnn-and-visual-representations/exercises.md": {
+      "bytes": 774,
+      "sha256": "35e609d17c874f7e85fe006aed1e8d0c954de65fb7fb92e937d135e517aabf70"
+    },
+    "chapters/23-cnn-and-visual-representations/figures/predictions.png": {
+      "bytes": 92056,
+      "sha256": "b7fda0aab6f42469ba5cd594752fbacf58a8729c6f97b7093c8c8881673867b9"
+    },
+    "chapters/23-cnn-and-visual-representations/solutions.md": {
+      "bytes": 1043,
+      "sha256": "784447a0d73b0b6c22c11191b962a0d6dabf49aa6cb419610cce2e6ac07e4fff"
+    },
+    "chapters/23-cnn-and-visual-representations/validation.md": {
+      "bytes": 897,
+      "sha256": "21c1b52948dc47c470b0103eebe6337bbb2fc84c93eadad4ba90c40cd8ef2765"
+    },
+    "chapters/24-text-tokenization-and-embeddings/README.md": {
+      "bytes": 10436,
+      "sha256": "d61daec0e483f7fcc79f118b013c10060780643e9ef5f5629e7c53020d2daa16"
+    },
+    "chapters/24-text-tokenization-and-embeddings/examples/simple_bpe.py": {
+      "bytes": 1360,
+      "sha256": "adb72a6ad2046f47bad0ea0e95ea8b732d587d27c8216bd3322303fdc8145d84"
+    },
+    "chapters/24-text-tokenization-and-embeddings/examples/text_basics.py": {
+      "bytes": 2173,
+      "sha256": "6424be4b4dbaff981c4e2b724019780a248951440b0188dc206673baf610662c"
+    },
+    "chapters/24-text-tokenization-and-embeddings/exercises.md": {
+      "bytes": 842,
+      "sha256": "eb6f4ee0c6ed675acf2765b1aa0fbd1490afc96538ed551e1335769bfca23016"
+    },
+    "chapters/24-text-tokenization-and-embeddings/solutions.md": {
+      "bytes": 1111,
+      "sha256": "b96a7a1d08b64a100828e60b9fec0424ba40b6c3cf3fa5dd5d1ec21227798097"
+    },
+    "chapters/24-text-tokenization-and-embeddings/validation.md": {
+      "bytes": 733,
+      "sha256": "15e1cbf2c17043ce39b1e1e67ad9ca6eb61a0112faa4b46fb321e5a09037d538"
+    },
+    "chapters/25-sequence-and-language-modeling/README.md": {
+      "bytes": 9303,
+      "sha256": "79392770e3f08e9a140562b0ee9095673733fd857cfeb698599992e5ce5bd738"
+    },
+    "chapters/25-sequence-and-language-modeling/examples/bigram.py": {
+      "bytes": 2561,
+      "sha256": "b162ddee79cfe6e8695bffe8cd34ae46a37716153dc2355c8199c3bb064e53f3"
+    },
+    "chapters/25-sequence-and-language-modeling/examples/rnn_forward.py": {
+      "bytes": 685,
+      "sha256": "8a6e25b2f6e768705ba7abd55d7ade7f5761487971dc1c82a1da6c0b1289574c"
+    },
+    "chapters/25-sequence-and-language-modeling/exercises.md": {
+      "bytes": 941,
+      "sha256": "60fe097f2d77902296b2a4efa520d523c5e1392a05028d2d50aee3af8833e79a"
+    },
+    "chapters/25-sequence-and-language-modeling/solutions.md": {
+      "bytes": 1074,
+      "sha256": "9c7ce9b1e991f20a12403d9d96c8437faaa7a4a3ef254077cc597d3e11648ee7"
+    },
+    "chapters/25-sequence-and-language-modeling/validation.md": {
+      "bytes": 768,
+      "sha256": "4f6afc3d6465f5025021c8bbd49fffa066a7b3735bfc4ab7f61bc1a2d79d8d7d"
+    },
+    "chapters/26-attention/README.md": {
+      "bytes": 8819,
+      "sha256": "6d1f84d40bb7e5183f62559aecf595d5e6e382b78c5a31832350771b2299824c"
+    },
+    "chapters/26-attention/examples/attention.py": {
+      "bytes": 2346,
+      "sha256": "235c88af0ea807c8bef18b858e4e56ca7951a2c222d6b79edf2a237186372543"
+    },
+    "chapters/26-attention/examples/multihead_shapes.py": {
+      "bytes": 724,
+      "sha256": "a07526f72c7c5e7391adde365409d9da0ab0c1f634bafca1a25b075509015243"
+    },
+    "chapters/26-attention/exercises.md": {
+      "bytes": 782,
+      "sha256": "627f689da1e2c2c545793de6d675504f93e5d6d3bf2b3bfb5409fc896c208f3d"
+    },
+    "chapters/26-attention/solutions.md": {
+      "bytes": 1038,
+      "sha256": "87391b77cfa2e31f21a5b6692e1da8233351b52e2c3f4417cb3d71d396ae568a"
+    },
+    "chapters/26-attention/validation.md": {
+      "bytes": 697,
+      "sha256": "e61118b274fbdc8c198d08cb3e80cff83ccde0ff5fc040776dfe2ff21990fbb3"
+    },
+    "chapters/27-transformer/README.md": {
+      "bytes": 8941,
+      "sha256": "1963134269b6a0775bdbf3827516d18957e251cde8978f7cb63c24580fc210bb"
+    },
+    "chapters/27-transformer/examples/transformer_block.py": {
+      "bytes": 3239,
+      "sha256": "a71a90e316d3488547f08ea6333a0dc3f1c08082969f4db32c2ab972d7ef0e25"
+    },
+    "chapters/27-transformer/exercises.md": {
+      "bytes": 803,
+      "sha256": "dc271ca361b68506290d1462e33ed7219d5c6ff2c5b14009e8665246187af419"
+    },
+    "chapters/27-transformer/solutions.md": {
+      "bytes": 973,
+      "sha256": "44e9d592b1036e249b96ad6a0353fc35cb48cdf9370b41125499b885544de84f"
+    },
+    "chapters/27-transformer/validation.md": {
+      "bytes": 620,
+      "sha256": "8943fec1888a82c087101fcd3d952589bd5f365061ef8488ee7f21511be2f636"
+    },
+    "chapters/28-tiny-language-model/README.md": {
+      "bytes": 8779,
+      "sha256": "4474752f3e5a8b2bde71457bafb008791fcf3c191f3182ea97daab39a60df574"
+    },
+    "chapters/28-tiny-language-model/examples/model_parts.py": {
+      "bytes": 2230,
+      "sha256": "4df7f462bd8189f364fdcaa0a955f0ddb45b4719bb3d33bc9ddc59ac6a8aa0ae"
+    },
+    "chapters/28-tiny-language-model/examples/train_language.py": {
+      "bytes": 7748,
+      "sha256": "97ca5aee8306351ff73ef5b4be6d93e51466de354f7c82b0cc0df7d230387563"
+    },
+    "chapters/28-tiny-language-model/exercises.md": {
+      "bytes": 729,
+      "sha256": "a9d8f6a413b8556fd77eb4e241930dce33bdb391516d64d05ff73af453737301"
+    },
+    "chapters/28-tiny-language-model/solutions.md": {
+      "bytes": 1161,
+      "sha256": "a87432c2ec9ba8bc40d0631411af664522a83d45a375354e4701808436ff72e7"
+    },
+    "chapters/28-tiny-language-model/validation.md": {
+      "bytes": 736,
+      "sha256": "75575ccd48bb376b50fb62aade3d180696ef17ad51437f487e0d7e38d468a762"
+    },
+    "chapters/29-adaptation-and-llm-evaluation/README.md": {
+      "bytes": 6974,
+      "sha256": "9f152c69b288412e2b66d9a10067d1be456003c740fc26d8f0be53d7597dd613"
+    },
+    "chapters/29-adaptation-and-llm-evaluation/examples/finetune.py": {
+      "bytes": 4077,
+      "sha256": "7c08e0ab5aba7046595f04cc778b74fd02fa6a3829327ab114a575d8cb2e2e92"
+    },
+    "chapters/29-adaptation-and-llm-evaluation/exercises.md": {
+      "bytes": 752,
+      "sha256": "4613ba77cd60b64c1349c41c3eb01dce2e197d54ee26112e6a0d4c721827851f"
+    },
+    "chapters/29-adaptation-and-llm-evaluation/solutions.md": {
+      "bytes": 855,
+      "sha256": "835c495af08928ca521a243422991fbc8e3754ed34f4ce08b0f951abebbabd44"
+    },
+    "chapters/29-adaptation-and-llm-evaluation/validation.md": {
+      "bytes": 624,
+      "sha256": "079edeb12e371f200efdbe2737d1d42442969891749e2876fcd241b8e3d63286"
+    },
+    "chapters/30-vision-transformer/README.md": {
+      "bytes": 6227,
+      "sha256": "ff4ceaced0ff03f9a2b7f64532135e0258f8a238d1616d7399cc5fa9253bf3a4"
+    },
+    "chapters/30-vision-transformer/examples/compare_vision.py": {
+      "bytes": 3265,
+      "sha256": "409caad89c1f24c2e5a2298597ee8c2f1634d4bf38ed25c3b86b1c9fc05efc0e"
+    },
+    "chapters/30-vision-transformer/exercises.md": {
+      "bytes": 623,
+      "sha256": "bc06fc015fd3ae80a5c4d2cfe76ee2b028bbdb9fe6bcc89bd8fd3787a947ab75"
+    },
+    "chapters/30-vision-transformer/solutions.md": {
+      "bytes": 757,
+      "sha256": "205042ef4b36b50134bb1abe9026d142c176cb0ee34a22f148fc00f3ed624680"
+    },
+    "chapters/30-vision-transformer/validation.md": {
+      "bytes": 619,
+      "sha256": "67a3ee9d4de712fca226467934fa69137b0a84c1872d1b4a5760f64046bfe718"
+    },
+    "chapters/31-multimodal-alignment/README.md": {
+      "bytes": 6150,
+      "sha256": "92e3494f342bd10b8abbea7cc146014d188615f71c2d3806e3929a9700fc934e"
+    },
+    "chapters/31-multimodal-alignment/examples/alignment.py": {
+      "bytes": 2372,
+      "sha256": "f86f8a7c8a53a842ea25303efd5caff2a6f4aaa825083db836ef5b98ca4bc718"
+    },
+    "chapters/31-multimodal-alignment/exercises.md": {
+      "bytes": 589,
+      "sha256": "8235e0edf5e9ecda87213fb3f6359faee9489cff3f829cb1ccfd6936e7c0260f"
+    },
+    "chapters/31-multimodal-alignment/solutions.md": {
+      "bytes": 668,
+      "sha256": "7b22c279f2cffc27613d5308f0c19d06608ce3862134ba1ab11b3ab89b15ac27"
+    },
+    "chapters/31-multimodal-alignment/validation.md": {
+      "bytes": 589,
+      "sha256": "05e86e43b585ecc8f9b0578e819392976381e1b96380cd82becd31b568d0bba2"
+    },
+    "chapters/32-vision-language-models/README.md": {
+      "bytes": 6979,
+      "sha256": "c65aa4ec3ffe22b668403e35fcd91d31e8bbb54f3b49af52a2d4cf712805e1bf"
+    },
+    "chapters/32-vision-language-models/examples/visual_qa.py": {
+      "bytes": 3105,
+      "sha256": "0149a5bd49634cedac22c7818183fff50ca9dca7f2eedb508e41c232ed883a86"
+    },
+    "chapters/32-vision-language-models/exercises.md": {
+      "bytes": 606,
+      "sha256": "206640058fccf8d215066ebba58e15e994a74796f51d251e4c12f0c66ad34215"
+    },
+    "chapters/32-vision-language-models/solutions.md": {
+      "bytes": 766,
+      "sha256": "11def74cdf37a65bae229473c6325f3f18ca0dca84f102cce51aeef48e00b539"
+    },
+    "chapters/32-vision-language-models/validation.md": {
+      "bytes": 591,
+      "sha256": "137bb558b06da82c6f1d31a9fe5bdaf75153238adbbd3249f34e600ab996a66a"
+    },
+    "chapters/33-robot-frames-and-pose/README.md": {
+      "bytes": 6008,
+      "sha256": "40b8fca4db57e275aaa68f3e8eff7684f74035e501d15abbdf32d67c6e6a5f0c"
+    },
+    "chapters/33-robot-frames-and-pose/examples/frames.py": {
+      "bytes": 1100,
+      "sha256": "432f50542babc2ecae166ef63f4701578e9822663e285786201b4827a1379291"
+    },
+    "chapters/33-robot-frames-and-pose/exercises.md": {
+      "bytes": 535,
+      "sha256": "776b13c510f2791ddeb4ab3cb47929e191e32c8559547462df5e0a2b62c0874b"
+    },
+    "chapters/33-robot-frames-and-pose/solutions.md": {
+      "bytes": 594,
+      "sha256": "e7c27ebc9ffd8cb13d89fce28a9d74ff51598dd6f2c01bad88439ef0310b14a9"
+    },
+    "chapters/33-robot-frames-and-pose/validation.md": {
+      "bytes": 427,
+      "sha256": "b6ef07a1eb7263794e211044f4d80e5facffb8eb1e260e1b878f0ac2a6d4abcb"
+    },
+    "chapters/34-robot-kinematics/README.md": {
+      "bytes": 5551,
+      "sha256": "d7d4561c7df83c80245f54461bf92ba6baec7e16b45b9aa1098f93117c47587b"
+    },
+    "chapters/34-robot-kinematics/examples/kinematics.py": {
+      "bytes": 2414,
+      "sha256": "8e991e2cb7cc641b99e16b4e60274ea31b55affb79ebbb316868661854d4a732"
+    },
+    "chapters/34-robot-kinematics/exercises.md": {
+      "bytes": 533,
+      "sha256": "7f202034279fc4d76acc179fb67d033f5da53f9484374d3ee2924b2b10ad595c"
+    },
+    "chapters/34-robot-kinematics/figures/arms.png": {
+      "bytes": 33332,
+      "sha256": "4cec22a829d312dc2e6cd280cc4bfcc0ac50990c9fcde52db0c4000beaa693e8"
+    },
+    "chapters/34-robot-kinematics/solutions.md": {
+      "bytes": 588,
+      "sha256": "4da24739d66409ee20e26c3c26ee6fb09d1bb29c35c49aaddfe74499f627bfd7"
+    },
+    "chapters/34-robot-kinematics/validation.md": {
+      "bytes": 464,
+      "sha256": "812b4b9475fe204582da44bcee550a409ffc711dd5e5d08ecccc6f60c14b0c85"
+    },
+    "chapters/35-dynamics-and-feedback-control/README.md": {
+      "bytes": 6118,
+      "sha256": "6e2d09b589f159a70667fde34671a3242db2b95acc169b34b1a9706a7d2056d0"
+    },
+    "chapters/35-dynamics-and-feedback-control/examples/control.py": {
+      "bytes": 1556,
+      "sha256": "c08a46b7322093598b8ed7f4f306d24616116cf6b4a22460b00ce4002a2091b3"
+    },
+    "chapters/35-dynamics-and-feedback-control/exercises.md": {
+      "bytes": 595,
+      "sha256": "74f7e7be052c78f06fbf396214e3e089918ed8b684ea774de4d8186927addbfd"
+    },
+    "chapters/35-dynamics-and-feedback-control/figures/control.png": {
+      "bytes": 85236,
+      "sha256": "2b549303a8215817061dc7b8995e88fa57f962cfc60f4753e985fc2e9c05ac30"
+    },
+    "chapters/35-dynamics-and-feedback-control/solutions.md": {
+      "bytes": 713,
+      "sha256": "5ff9bfe11d0b1fd6ec691923e628a3ef21c136bdc79e56f821b4c2b5c068b5f5"
+    },
+    "chapters/35-dynamics-and-feedback-control/validation.md": {
+      "bytes": 631,
+      "sha256": "a23cc55324ab31d111d72f36ed68209e05e04f99b245596807969d7f3732be35"
+    },
+    "chapters/36-sensors-and-robot-data/README.md": {
+      "bytes": 6368,
+      "sha256": "005052f5b9941f8541638610f8a054702498b3dc5b4a54e36cf320546dd8e5d6"
+    },
+    "chapters/36-sensors-and-robot-data/examples/sensors.py": {
+      "bytes": 1916,
+      "sha256": "f375bd04bdbe90309c8b65a4f3583bc7da2bfc3bb40a5463f6ecf50f47a9e1f2"
+    },
+    "chapters/36-sensors-and-robot-data/exercises.md": {
+      "bytes": 624,
+      "sha256": "077ab6b22c301c2c652a7ab9ea7d1411b4c85dab35d86e3f4108dd375138048b"
+    },
+    "chapters/36-sensors-and-robot-data/solutions.md": {
+      "bytes": 724,
+      "sha256": "1fe4de772e884e136d4e7ce8bae2ca8ae3bab2a534b626d083f5a2051bc2e8e3"
+    },
+    "chapters/36-sensors-and-robot-data/validation.md": {
+      "bytes": 535,
+      "sha256": "f43e30530c928bdf625a13ac8a013f433aa59529c6d1731f93229c0e0ddaf423"
+    },
+    "chapters/37-simulation-and-environment-api/README.md": {
+      "bytes": 6351,
+      "sha256": "c0508bb530365dcff766a67eecfdc04d51247839a37490b55c16b04b87de6e93"
+    },
+    "chapters/37-simulation-and-environment-api/examples/run_environment.py": {
+      "bytes": 2078,
+      "sha256": "7ba972247dd1d9dea59652b92819eff36d5adc0751356ed4c13bec68d086ba14"
+    },
+    "chapters/37-simulation-and-environment-api/examples/tabletop_env.py": {
+      "bytes": 2549,
+      "sha256": "a5fb881f8f9866824781ed520e148255abadf935541fe8f117ff6c13d417b039"
+    },
+    "chapters/37-simulation-and-environment-api/exercises.md": {
+      "bytes": 618,
+      "sha256": "5b63c073d12b63e882ee21bbde9027eadf2d8562239aeb590c3af222691a6478"
+    },
+    "chapters/37-simulation-and-environment-api/solutions.md": {
+      "bytes": 753,
+      "sha256": "ad243c9acd665651ebff1cbf57054a60895b67670b6c75176d096a6184b63bc7"
+    },
+    "chapters/37-simulation-and-environment-api/validation.md": {
+      "bytes": 581,
+      "sha256": "f0c29a80ebbd8ae77d4f8e5a0f5ea1b1589970b9d08a86b367f6207fe184ca6b"
+    },
+    "chapters/38-sequential-decision-making/README.md": {
+      "bytes": 6255,
+      "sha256": "37b3a5af57188fac3b5d2825158332d1cec35be3e5370f987a30a51305968610"
+    },
+    "chapters/38-sequential-decision-making/examples/decision.py": {
+      "bytes": 619,
+      "sha256": "087f161f897d36ab201f5e9632fc75aaa8ad788481076c116a2d534866e127da"
+    },
+    "chapters/38-sequential-decision-making/exercises.md": {
+      "bytes": 539,
+      "sha256": "11321ac1df0289bd7115fd176864ab81f2bc738bf3e53da3e7c3ab433faf382c"
+    },
+    "chapters/38-sequential-decision-making/solutions.md": {
+      "bytes": 590,
+      "sha256": "2b2b9da20372ba1815c57861f858a3ad4bb54b14a751c59b6b244b63763425d3"
+    },
+    "chapters/38-sequential-decision-making/validation.md": {
+      "bytes": 479,
+      "sha256": "deaea377b11ffb25b95dfff1041df32d815bda760f6755252025c733f3c5cb93"
+    },
+    "chapters/39-value-learning/README.md": {
+      "bytes": 6464,
+      "sha256": "45a9585590bd3b634a582a72621bf13583e6493c2000fca15be136714ccc6ce8"
+    },
+    "chapters/39-value-learning/examples/value_learning.py": {
+      "bytes": 2210,
+      "sha256": "b040c909c9c4732562e21d755186e19b7858f4f47607449ba8c7680081b14f97"
+    },
+    "chapters/39-value-learning/exercises.md": {
+      "bytes": 573,
+      "sha256": "874dda36e089bffbba29d1cdb9beeced88e6f0afa1684913ed9537d449fce37b"
+    },
+    "chapters/39-value-learning/solutions.md": {
+      "bytes": 759,
+      "sha256": "ee669f4b4dd4522772f9daa54476469efbd6ad0251e51e2728f8d35e8971f002"
+    },
+    "chapters/39-value-learning/validation.md": {
+      "bytes": 513,
+      "sha256": "cd8ec1a3814927c67e297e1d6ce6269efba27232ee680668c54ee431f6a3363f"
+    },
+    "chapters/40-policy-gradients/README.md": {
+      "bytes": 6752,
+      "sha256": "9ef09803224f09703325a1ab252b2d987cf44e656599e7ca956fa1df0903da42"
+    },
+    "chapters/40-policy-gradients/examples/reinforce.py": {
+      "bytes": 2009,
+      "sha256": "6cc2650eb24ea4fb948ab3e9cbde4d1792a1cc77fef8be635b52250739122dd5"
+    },
+    "chapters/40-policy-gradients/exercises.md": {
+      "bytes": 545,
+      "sha256": "81000a6ed252fa921caba1ef9bedca1cc34c8f338fd3d891c8b7e75dc2630aef"
+    },
+    "chapters/40-policy-gradients/solutions.md": {
+      "bytes": 794,
+      "sha256": "99d71054a04ee55cbbdd4398e122e692e8cedd698e263f1c921baee3ccff4201"
+    },
+    "chapters/40-policy-gradients/validation.md": {
+      "bytes": 601,
+      "sha256": "68438d0a727200a9ce8d53bdb030a70573d080acdac496c9bda2d28b7333d4f4"
+    },
+    "chapters/41-imitation-learning/README.md": {
+      "bytes": 5993,
+      "sha256": "e9b7265c46304fc2e94c954f6be00d19a7ee66bb15ae4c092966571d04e38870"
+    },
+    "chapters/41-imitation-learning/examples/bc.py": {
+      "bytes": 3750,
+      "sha256": "4fc0de1efd62a42aef55b5e4120a7725b4a21d9d4b9a639b66f8b825284c96dd"
+    },
+    "chapters/41-imitation-learning/exercises.md": {
+      "bytes": 625,
+      "sha256": "aa75c4060e0da87069678989615537e7f3d4f117754809018a3108ea9138429f"
+    },
+    "chapters/41-imitation-learning/solutions.md": {
+      "bytes": 806,
+      "sha256": "86b2cb53f3f39e150a7d6fcbc27a17d028a9554907cebb2c308b9e1a2fb621a2"
+    },
+    "chapters/41-imitation-learning/validation.md": {
+      "bytes": 613,
+      "sha256": "0ef817d775b72d892d3591a9830860556ce0ebcf406cff1cb65cd54dd9467d83"
+    },
+    "chapters/42-planning-and-mpc/README.md": {
+      "bytes": 5903,
+      "sha256": "4873bd0d6ceed691922b40c7e72cc84ca7e13357c2ae0bdd1a722911d3130aa5"
+    },
+    "chapters/42-planning-and-mpc/examples/mpc.py": {
+      "bytes": 2849,
+      "sha256": "9947e4308eefa894c8b05c0dff90650b97ab11e686b783eaac1dcdd7b0da8d2f"
+    },
+    "chapters/42-planning-and-mpc/exercises.md": {
+      "bytes": 623,
+      "sha256": "a4a10f68f4b59321b1ed0b5106cd1f6707e8205bc945a0958529f0be1387f5a1"
+    },
+    "chapters/42-planning-and-mpc/solutions.md": {
+      "bytes": 832,
+      "sha256": "f6e3dc63584343a650e5c8e29662b41f8c126992d8e75e62e1c1d22fb7f39eea"
+    },
+    "chapters/42-planning-and-mpc/validation.md": {
+      "bytes": 699,
+      "sha256": "21b6b3264d1cba864b3d701a07756b32aea97d52157e35eb94682d408287d7ca"
+    },
+    "chapters/43-latent-generative-models/README.md": {
+      "bytes": 6593,
+      "sha256": "250235cf2314a5dbe9299d3c4f0bee7054fc12628cb0608af5e9f88ae918668b"
+    },
+    "chapters/43-latent-generative-models/examples/vae.py": {
+      "bytes": 2561,
+      "sha256": "67b877e6f7375f4224e86c24333bee8cd2fd7e6b23ba079bf93ed407ca39da6b"
+    },
+    "chapters/43-latent-generative-models/exercises.md": {
+      "bytes": 514,
+      "sha256": "8dda7a8781fc374d221ed1e5db025818a5da220c3044726192469b4795f085e3"
+    },
+    "chapters/43-latent-generative-models/figures/vae.png": {
+      "bytes": 122798,
+      "sha256": "8608cf37a96b011f09de5f2315184dac586459d437e222eac1402a0eae441be1"
+    },
+    "chapters/43-latent-generative-models/solutions.md": {
+      "bytes": 708,
+      "sha256": "b0d20995756039a8d10e8613d1be19ae0ac6ac4fb7083a0181c0007698023381"
+    },
+    "chapters/43-latent-generative-models/validation.md": {
+      "bytes": 564,
+      "sha256": "b17899fe84764149143fbf542a9d6e1dd50be10658d9c00ce1f8e36a2581e05f"
+    },
+    "chapters/44-diffusion-models/README.md": {
+      "bytes": 6193,
+      "sha256": "575d14542d5fd4d2f4b4d8776e5c85f76c37b7f938e4527e401bc10d9df04ada"
+    },
+    "chapters/44-diffusion-models/examples/diffusion.py": {
+      "bytes": 3217,
+      "sha256": "8b290a4e8a295fd966d1f33892877f9a43f2d1fc5a1a3c4954cbf5bddfac47c0"
+    },
+    "chapters/44-diffusion-models/exercises.md": {
+      "bytes": 583,
+      "sha256": "0502b473c241dafdd2301ad202aa2ccd3fdb2f797eabf1c9f66ea17bf2e7c0a0"
+    },
+    "chapters/44-diffusion-models/figures/diffusion.png": {
+      "bytes": 132111,
+      "sha256": "3037d661863fa58b12a72513fd42fa5119874ba79b3890b0fc0b8e3145d0ea7c"
+    },
+    "chapters/44-diffusion-models/solutions.md": {
+      "bytes": 695,
+      "sha256": "1385c135fd25ea1db1346ce34531815c0af496ef43851d030c5f94be3eaddd5a"
+    },
+    "chapters/44-diffusion-models/validation.md": {
+      "bytes": 639,
+      "sha256": "91056dc99165f0645539a9962c1b446e1bf167e4c1e8b259afb5b547cafcf65d"
+    },
+    "chapters/45-flow-matching/README.md": {
+      "bytes": 5712,
+      "sha256": "a2524719d7fb970b616158de57d99707e22bdc16ce057f13ed0fe9b396c482cf"
+    },
+    "chapters/45-flow-matching/examples/flow.py": {
+      "bytes": 2180,
+      "sha256": "0c5139b97d9fbdc69209f06a70621e64834d94e3a713dd4ce18cc68610f879b8"
+    },
+    "chapters/45-flow-matching/exercises.md": {
+      "bytes": 559,
+      "sha256": "dac65120656dba5b55ee5771650e63c212c37fbc70d137f040ef925902bec2aa"
+    },
+    "chapters/45-flow-matching/figures/flow.png": {
+      "bytes": 145280,
+      "sha256": "40b755508d016fc83fc62b33c5d236064e9a8963d9ad0539c2cf7671bbe8a57a"
+    },
+    "chapters/45-flow-matching/solutions.md": {
+      "bytes": 698,
+      "sha256": "b80dcd5b7b5426998e60a7fc98d9a3603956d8c36eca93971ea3a04caf4983de"
+    },
+    "chapters/45-flow-matching/validation.md": {
+      "bytes": 615,
+      "sha256": "9a59053f929809e04e27bee2ed849ca517f1fff1725f0ae8b40a2dd5ab05948c"
+    },
+    "chapters/46-action-chunks-and-generative-policies/README.md": {
+      "bytes": 6243,
+      "sha256": "977c5733778e10c02457a49e192b3aab1c2ede794262f39c741f18c097b63da1"
+    },
+    "chapters/46-action-chunks-and-generative-policies/examples/chunks.py": {
+      "bytes": 3853,
+      "sha256": "4e6940c7dafbb83cbccb695aa714109b35fe5d97f42f340eb2025f6863549147"
+    },
+    "chapters/46-action-chunks-and-generative-policies/exercises.md": {
+      "bytes": 667,
+      "sha256": "132a2c5a03f7403a81f3aeba99accffad6ee5ce7817a7b6fb9587fb2219ecfc6"
+    },
+    "chapters/46-action-chunks-and-generative-policies/figures/chunks.png": {
+      "bytes": 83369,
+      "sha256": "ad8d2cab1a0a0b805435fef821e20e3220ab5d1dd1899b12eab2d3709f71ffb9"
+    },
+    "chapters/46-action-chunks-and-generative-policies/solutions.md": {
+      "bytes": 784,
+      "sha256": "e57968379b5e3581b803dbc28f64c0bf49fd564aa9f31dbc2052ae1936a67bec"
+    },
+    "chapters/46-action-chunks-and-generative-policies/validation.md": {
+      "bytes": 661,
+      "sha256": "0cfeeaa577591eade186701065a4eec4a4c273cf39e14bfd6d7a6d65bd13be37"
+    },
+    "chapters/47-learned-dynamics/README.md": {
+      "bytes": 5892,
+      "sha256": "0838facb4882f1ddcf5e7113c69eb96a5de25be01ba61d10714f642ac31014c3"
+    },
+    "chapters/47-learned-dynamics/examples/dynamics.py": {
+      "bytes": 3490,
+      "sha256": "027c91bbac30b186841b730167a9f43c8ae627944d189f33176c2ddafdcd0016"
+    },
+    "chapters/47-learned-dynamics/exercises.md": {
+      "bytes": 601,
+      "sha256": "705fdcf4c291838504e467af3759b2089e2a90d1f8620cef6afb27e0d6ed44a5"
+    },
+    "chapters/47-learned-dynamics/solutions.md": {
+      "bytes": 806,
+      "sha256": "708ecda2433fdb8fa5325d17fa78e57162e1df54b04d04296fe3811990d10983"
+    },
+    "chapters/47-learned-dynamics/validation.md": {
+      "bytes": 572,
+      "sha256": "f4839d594e7f57fc3602a88aed6882e418025d69bad578372a41f3c232f85963"
+    },
+    "chapters/48-latent-world-models/README.md": {
+      "bytes": 5791,
+      "sha256": "818fd600c23757de8709b43cfc08b9453d0c1898252fc1da20d774e1379a2500"
+    },
+    "chapters/48-latent-world-models/examples/memory.py": {
+      "bytes": 2540,
+      "sha256": "d78d7a2048025351c72a7263a743797fd55cfb4cbacb61788ef0ed7425c760c9"
+    },
+    "chapters/48-latent-world-models/exercises.md": {
+      "bytes": 494,
+      "sha256": "605d080b65f6e2f826b77163f36195ec2ee595b3e6f3d9b6cb230374e69a2e5b"
+    },
+    "chapters/48-latent-world-models/solutions.md": {
+      "bytes": 666,
+      "sha256": "447eda46dbfcdd2f308f658def193ac213c7b884e1caa01a8b0bce83310bf277"
+    },
+    "chapters/48-latent-world-models/validation.md": {
+      "bytes": 636,
+      "sha256": "22d15b43853a24b83aa58a86481ae1cff69e6e13e3fde143664b427492ce78bc"
+    },
+    "chapters/49-planning-with-world-models/README.md": {
+      "bytes": 5334,
+      "sha256": "8a447ffa2b57515903df364946b4028448c3ac1b8a09b42199bf4f9fb76a2eeb"
+    },
+    "chapters/49-planning-with-world-models/examples/learned_mpc.py": {
+      "bytes": 2955,
+      "sha256": "4c4ff7958bd767035650419974836851f207aaece9f1fc461acd51d563e685a9"
+    },
+    "chapters/49-planning-with-world-models/exercises.md": {
+      "bytes": 520,
+      "sha256": "9c0ab234c27473388070fb967cfaad28bec97e989ee82bdd98d586d53d90c18c"
+    },
+    "chapters/49-planning-with-world-models/solutions.md": {
+      "bytes": 598,
+      "sha256": "e05089d60a441dc69dd0cfe1e0dd9158493f77f4a02fb798f57167c80db1dfaa"
+    },
+    "chapters/49-planning-with-world-models/validation.md": {
+      "bytes": 612,
+      "sha256": "79d67ee2f1b312bc37fc8b3a6b2d21a71437b18cc73311cd952a99151a790490"
+    },
+    "chapters/50-imagined-policy-learning/README.md": {
+      "bytes": 6501,
+      "sha256": "0bfadec98878b637a54da9a308fcfac330930c11beb48596c96f25852ba1e2b7"
+    },
+    "chapters/50-imagined-policy-learning/examples/imagination.py": {
+      "bytes": 2689,
+      "sha256": "a5c6d4203ab9a07819f2e1cf6d954ea0a4ebd22269cdabc387df6f17fc13181d"
+    },
+    "chapters/50-imagined-policy-learning/exercises.md": {
+      "bytes": 587,
+      "sha256": "1ef9396dd71dc895814bd4495255cbb714d3755713e635e4b8b32035c73ed6ea"
+    },
+    "chapters/50-imagined-policy-learning/solutions.md": {
+      "bytes": 741,
+      "sha256": "82ea6634567feaf84a22a4180ed987665f68b6d2c5e6254b8019b15cdeaf7fa3"
+    },
+    "chapters/50-imagined-policy-learning/validation.md": {
+      "bytes": 587,
+      "sha256": "4842ebf4ff1a1c25e25306dad211bbc8235aaf0a491ae139099b7edc7b7257b9"
+    },
+    "chapters/51-video-and-world-model-boundaries/README.md": {
+      "bytes": 6089,
+      "sha256": "d8be84fcdd7096b83205b2f059f41dde052c9067d7bad61c79401cfabe9b85bd"
+    },
+    "chapters/51-video-and-world-model-boundaries/examples/action_counterexample.py": {
+      "bytes": 980,
+      "sha256": "c9e0b3fc498297c61abd5da1cd56f194ad797653f831862b86ade36e67f17120"
+    },
+    "chapters/51-video-and-world-model-boundaries/exercises.md": {
+      "bytes": 540,
+      "sha256": "48374aca76499b701719d9741e9d6fe70674291909c92603f0caa9db8e79e149"
+    },
+    "chapters/51-video-and-world-model-boundaries/solutions.md": {
+      "bytes": 695,
+      "sha256": "cb62d7f58d111a7f5bb099be1183669db469d6d522ba1a3a4d07d180aa2921e4"
+    },
+    "chapters/51-video-and-world-model-boundaries/validation.md": {
+      "bytes": 531,
+      "sha256": "824f0fd54bbebca6b409cd3e0189b03000531c685f04e39145438baedeb93e03"
+    },
+    "chapters/52-vla-discrete-actions/README.md": {
+      "bytes": 6403,
+      "sha256": "7aff19aa7e21909a15365ba0946220dd270e72177af4eb0467a1168d1565d335"
+    },
+    "chapters/52-vla-discrete-actions/examples/scene.py": {
+      "bytes": 2748,
+      "sha256": "cf2addde9cde116489bb4401df8faf6da64ca21370d1327e72197fd34b875d2f"
+    },
+    "chapters/52-vla-discrete-actions/examples/train_vla.py": {
+      "bytes": 2600,
+      "sha256": "90412b87e5d96390e46359c41ef3d9842ecb469f81c25a63158064fc81c1ef9f"
+    },
+    "chapters/52-vla-discrete-actions/exercises.md": {
+      "bytes": 606,
+      "sha256": "e2204a54631540a29eb54b3e42e7350b17ed9d4b74aa3200f5dece27e7887ff3"
+    },
+    "chapters/52-vla-discrete-actions/solutions.md": {
+      "bytes": 846,
+      "sha256": "8835c6b282f28998821412125d3fef654652dc3ea1d4d8a72ab481c7aac3d711"
+    },
+    "chapters/52-vla-discrete-actions/validation.md": {
+      "bytes": 563,
+      "sha256": "625f1c982f54a94c124410c1b7e3d246847cc6260d755c99f29d39f9165ed62a"
+    },
+    "chapters/53-vla-continuous-actions/README.md": {
+      "bytes": 5377,
+      "sha256": "df83c26051c380c7a6731fad9e2fb3d2bf2714839d2a6acc93e9b92fe60b85cd"
+    },
+    "chapters/53-vla-continuous-actions/examples/continuous.py": {
+      "bytes": 3894,
+      "sha256": "b939a6491691ecdec346082adef0119dee45fd57b82013005d6ab3b4e83329cf"
+    },
+    "chapters/53-vla-continuous-actions/exercises.md": {
+      "bytes": 542,
+      "sha256": "ef67fca6b99fc75e3fafea17025291b6752e84e97ad225f16b176ea40992dc37"
+    },
+    "chapters/53-vla-continuous-actions/solutions.md": {
+      "bytes": 657,
+      "sha256": "7d34a1a6ccf8a2c2e3582c2d7d56b377d071fb9fc3f70b1169092c7814039160"
+    },
+    "chapters/53-vla-continuous-actions/validation.md": {
+      "bytes": 568,
+      "sha256": "b335a9bffbc9f045282b2f054f0c872605056cb1e66dd08bf1ca82ee379d62f3"
+    },
+    "chapters/54-robot-datasets-and-benchmarks/README.md": {
+      "bytes": 5935,
+      "sha256": "8da33a5e185063af8857652b4ff2a0eaa05ec53e1e9915b4af0475151bbbef74"
+    },
+    "chapters/54-robot-datasets-and-benchmarks/data-card.md": {
+      "bytes": 1495,
+      "sha256": "7917de5cc64f26549e29442ca05c460b1a099cc783af82c6cff0746ea6486cd9"
+    },
+    "chapters/54-robot-datasets-and-benchmarks/examples/audit_data.py": {
+      "bytes": 2476,
+      "sha256": "e75135b890f31bbecb3c1543d112212628529a31e5efdac706d2815d79c0b6c4"
+    },
+    "chapters/54-robot-datasets-and-benchmarks/exercises.md": {
+      "bytes": 516,
+      "sha256": "f2fdb729637f174d968e1b560b02d83cd89a48bfb96a0d7fb48c8f4a654f0eff"
+    },
+    "chapters/54-robot-datasets-and-benchmarks/solutions.md": {
+      "bytes": 686,
+      "sha256": "7b4c972c5edb0776de5b7f46c581cf785493db40aa0451d949702a41acc3c177"
+    },
+    "chapters/54-robot-datasets-and-benchmarks/validation.md": {
+      "bytes": 681,
+      "sha256": "5853edc9302a6bf00ec762d2b99d5bf6d877719d3552b6f467e0af8802cdf98d"
+    },
+    "chapters/55-closed-loop-deployment/README.md": {
+      "bytes": 8771,
+      "sha256": "3b4e2dde7f624896ead28ee2996916ded5e322f2c061d596b37bccc012ecb43e"
+    },
+    "chapters/55-closed-loop-deployment/examples/deployment.py": {
+      "bytes": 2409,
+      "sha256": "47c2b01bd71c3b799966d7184c0a07febf91e161cf2bcd15f968c3a65d227aa7"
+    },
+    "chapters/55-closed-loop-deployment/exercises.md": {
+      "bytes": 686,
+      "sha256": "24db57272416c61649287f570be1aa1fa6f0ec939debedb70743d2ee7fb16939"
+    },
+    "chapters/55-closed-loop-deployment/solutions.md": {
+      "bytes": 945,
+      "sha256": "ed669dde26ab25adb7b05fd34d4dbb5f245a6d6cab81037c8741b0c862dba634"
+    },
+    "chapters/55-closed-loop-deployment/validation.md": {
+      "bytes": 1031,
+      "sha256": "cf61d01b60a983f4f474c03d4e4c47db6a76c80dffa99e10c1c6d3d167648a20"
+    },
+    "chapters/56-reading-and-reproducing-papers/README.md": {
+      "bytes": 7840,
+      "sha256": "c5d6a2bc6ccc7bb4b4990ab71878a52ae7182ac9d41eb1749ee665ced2078675"
+    },
+    "chapters/56-reading-and-reproducing-papers/examples/reproduction_record.py": {
+      "bytes": 1509,
+      "sha256": "6f49d601cc150de817de0166b252c82ca7b3b752831d5b220e349f8e0830cb14"
+    },
+    "chapters/56-reading-and-reproducing-papers/exercises.md": {
+      "bytes": 593,
+      "sha256": "815951ebba70a2539ed30ce1b54cd8c5f473d5f55beca3e3b02a0196d50a1e32"
+    },
+    "chapters/56-reading-and-reproducing-papers/paper-note.md": {
+      "bytes": 1680,
+      "sha256": "7c8881e5400fb14c650ba0ad99cb81ed942415a4900b5ac42abeb934615f506f"
+    },
+    "chapters/56-reading-and-reproducing-papers/reproduction-template.md": {
+      "bytes": 891,
+      "sha256": "39eda9b881be37059b1a4ed1e36c490bd1e488824fa432ff1e1a4b23bcb445a7"
+    },
+    "chapters/56-reading-and-reproducing-papers/solutions.md": {
+      "bytes": 971,
+      "sha256": "564f378198646f5226186cb9ecc499a3c9745dcaef5b5981678214f9fee22761"
+    },
+    "chapters/56-reading-and-reproducing-papers/validation.md": {
+      "bytes": 699,
+      "sha256": "7ba94ea6eb429217eb0d2bb14247b558804177bd2b149070913c65d0d959a4b1"
+    },
+    "chapters/57-capstone/README.md": {
+      "bytes": 8211,
+      "sha256": "d9eb01d7653235c5e5eda00c6975b649235be0677777bcfc1fb1cb94d9982200"
+    },
+    "chapters/57-capstone/acceptance.md": {
+      "bytes": 854,
+      "sha256": "f57cb0b83d902ef941ebb7ba38a7bd2bae68f36afa8594b50704b9140bd48ccc"
+    },
+    "chapters/57-capstone/examples/capstone.py": {
+      "bytes": 4809,
+      "sha256": "e3a154a6cdad006161db0ed1c6632d8fe47335a978fff449e9224a4a73e34e65"
+    },
+    "chapters/57-capstone/exercises.md": {
+      "bytes": 744,
+      "sha256": "69863403b9607f0fb9dda63d3ca1c152ac81dd91ed98cfb5a7a7cd1c70865025"
+    },
+    "chapters/57-capstone/results.md": {
+      "bytes": 1955,
+      "sha256": "b6753ee6692c5e4801feafb24a85f9a8553c32b8894dbc07a7b7d17454452fe3"
+    },
+    "chapters/57-capstone/solutions.md": {
+      "bytes": 1326,
+      "sha256": "fee6c01c419ab99f9344723e3fa01e84fa48925ed8900376ba4beac40d61ca9c"
+    },
+    "chapters/57-capstone/validation.md": {
+      "bytes": 1135,
+      "sha256": "3c4afd7c7d076b4a1be9585f999a88a7d7de082a6e28aaed128e585b6009bfd2"
+    },
+    "chapters/58-synthesis-and-next-steps/README.md": {
+      "bytes": 10892,
+      "sha256": "587b9718cc90c0c0f19aa539cd583272df8d3202f824b8f81536169d2b9b076d"
+    },
+    "chapters/58-synthesis-and-next-steps/exercises.md": {
+      "bytes": 858,
+      "sha256": "0283128f4f13fdc71ab35b85083740d6be1abddae6eb9350f352db37f73a1207"
+    },
+    "chapters/58-synthesis-and-next-steps/solutions.md": {
+      "bytes": 1645,
+      "sha256": "0f8b9286181de55a37634a56fc36db2122edc7309df1ccda5985c55981527989"
+    },
+    "chapters/58-synthesis-and-next-steps/validation.md": {
+      "bytes": 631,
+      "sha256": "c3493b30d615be8cc9942fdab06b26335cc4f0e50d66a28bfb2224d8eaf1c087"
+    },
+    "curriculum.md": {
+      "bytes": 83512,
+      "sha256": "88e66f24d9edfd5e485c0111d8f85e1f48c97fa7ddcd0801baf3cb1d3a29c3c2"
+    },
+    "dependency-audit.md": {
+      "bytes": 26772,
+      "sha256": "da0c2c34fc4c1211787592f111997b85549d621553af52289605c16a7f563eed"
+    },
+    "environment-lock-macos-arm64.txt": {
+      "bytes": 428,
+      "sha256": "474de6f3b43301acc1702630836c655a0399b433a6b5ea195cf1eecdd051f2a4"
+    },
+    "environment.md": {
+      "bytes": 2515,
+      "sha256": "d8877c7d14928c43a7ae13e3495547daddfad394e3d00f6a72a1643be4e04630"
+    },
+    "experiments.md": {
+      "bytes": 16743,
+      "sha256": "76c1a03ed8bc1fac89b9a17f9cfeefb5e7e18de8a7a1f3e39d72697065f9d9a2"
+    },
+    "learning-checklist.md": {
+      "bytes": 5690,
+      "sha256": "dd669105b65c7d7d7884b9074c17a0e2292988829ea77b14eef69ba93f667200"
+    },
+    "project-plan.md": {
+      "bytes": 8653,
+      "sha256": "50fbd924eb16f406dbdb733551440fad0f881b6de15c002b44fc17c0b3d64ffd"
+    },
+    "publication.md": {
+      "bytes": 2009,
+      "sha256": "86eb46db80286e012ad56a1f3611fe5b30d556ffe38459348caa5f2cac5c4f9e"
+    },
+    "references.md": {
+      "bytes": 22259,
+      "sha256": "ff05981fc31afd55f0f6131ad59d22e90d9d97fb051ec19695c7d82a20866cd2"
+    },
+    "repository-plan.md": {
+      "bytes": 10714,
+      "sha256": "7709b7120f505f863c1093303275afac3e3d3b4e95dc48ebdd93ee981f61716e"
+    },
+    "requirements-core.txt": {
+      "bytes": 78,
+      "sha256": "b35547829f7e8947823d698b59753a389146f36d2dd2a55984eff033fad5d22d"
+    },
+    "roadmap.md": {
+      "bytes": 9673,
+      "sha256": "8e51a85a5721c61d904cb5ed68dc3eccfa4b9f75676760541d8c3fc3629f020c"
+    },
+    "scripts/check_book.py": {
+      "bytes": 3619,
+      "sha256": "4a431c5ee6a9af87718f61de9b5575b6be12c84b4fe882bd7f045406e936bd5f"
+    },
+    "scripts/package_book.py": {
+      "bytes": 1540,
+      "sha256": "dfe6a36f5e5b87ff4a16b753203241e78a492ec91bfaddefbc710e8a134c49bf"
+    },
+    "writing-guide.md": {
+      "bytes": 5818,
+      "sha256": "90bd1b5cfebe073f93095559b12d0d5e4644bead384a98f8e165e036c56ff9f0"
+    }
+  }
+}

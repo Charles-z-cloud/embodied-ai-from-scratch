@@ -1,0 +1,5 @@
+numpy==2.5.4
+matplotlib==3.11.2
+torch==2.14.1
+pillow==13.0.0
+gymnasium==1.4.0
